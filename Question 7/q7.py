@@ -40,6 +40,7 @@ angle_rad = np.arctan(m_tls)
 
 # Convert to degrees
 angle_deg = np.degrees(angle_rad)
+# Invert the angle so it matches the visual slope in Figure 1b
 visual_angle = -angle_deg
 
 print("\n--- Answer for Question 07 ---")
