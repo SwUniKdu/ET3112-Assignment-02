@@ -45,4 +45,5 @@ visual_angle = -angle_deg
 
 print("\n--- Answer for Question 07 ---")
 print(f"Calculated TLS Slope (m): {m_tls:.4f}")
-print(f"Estimated Crop Field Angle (TLS): {visual_angle:.2f} degrees\n")
+print(f"Raw Calculated Angle: {angle_deg:.2f} degrees")
+print(f"Adjusted Visual Crop Field Angle (TLS): {visual_angle:.2f} degrees\n")
