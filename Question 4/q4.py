@@ -33,4 +33,5 @@ visual_angle = -angle_deg
 
 print("\n--- Answer for Question 04 ---")
 print(f"Calculated Slope (m): {m_ols:.4f}")
-print(f"Estimated Crop Field Angle: {visual_angle:.2f} degrees\n")
+print(f"Raw Calculated Angle: {angle_deg:.2f} degrees")
+print(f"Adjusted Visual Crop Field Angle: {visual_angle:.2f} degrees\n")
